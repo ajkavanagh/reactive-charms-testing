@@ -1,0 +1,5 @@
+options:
+  poke-me:
+    default: ""
+    type: string
+    description: Something to poke

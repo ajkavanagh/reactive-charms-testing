@@ -1,0 +1,5 @@
+options:
+  the-option:
+    default: ""
+    type: string
+    description: Something to poke

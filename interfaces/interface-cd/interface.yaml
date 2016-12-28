@@ -1,0 +1,4 @@
+name: interface-cd
+summary: Interface for testing chatiness of interfaces c&d
+maintainer: Not maintained
+repo: https://github.com/ajkavanagh/reactive-charms-testing.git

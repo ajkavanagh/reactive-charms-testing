@@ -1,0 +1,10 @@
+name: charm-b
+summary: A test charm at the 'B' end of the interface
+maintainer: not maintained <none@example.com>
+description: A testing charm
+series:
+  - xenial
+subordinate: false
+requires:
+  interface-b:
+    interface: interface-ab

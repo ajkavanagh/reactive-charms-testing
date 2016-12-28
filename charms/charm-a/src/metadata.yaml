@@ -1,0 +1,10 @@
+name: charm-a
+summary: A test charm at the 'A' end of the interface
+maintainer: Alex Kavanagh <alex@ajkavanagh.co.uk>
+description: not maintained
+series:
+  - xenial
+subordinate: false
+provides:
+  interface-a:
+    interface: interface-ab
