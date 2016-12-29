@@ -57,6 +57,8 @@ def update_status():
 
 
 def _update_status():
+    hookenv.log("pid({}) - Charm D: running _update_status()"
+                .format(os.getpid()))
     connected = charms.reactive.RelationBase.from_state(
         'interface-d.connected')
     available = charms.reactive.RelationBase.from_state(

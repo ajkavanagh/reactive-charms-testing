@@ -1,5 +1,5 @@
 options:
   the-option:
-    default: ""
+    default: hello
     type: string
     description: Something to poke
